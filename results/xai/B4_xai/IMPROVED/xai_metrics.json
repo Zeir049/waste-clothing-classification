@@ -1,0 +1,32 @@
+{
+  "variant": "IMPROVED",
+  "cam_class": "gt",
+  "cam_threshold": 0.5,
+  "bbox_format": "xywh",
+  "overall": {
+    "n": 243,
+    "mean_IoU": 0.0271,
+    "Loc_at_0p5": 0.0123,
+    "pointing_game": 0.0617
+  },
+  "per_class": {
+    "재활용": {
+      "n": 178,
+      "mean_IoU": 0.0036,
+      "Loc_at_0p5": 0.0056,
+      "pointing_game": 0.0
+    },
+    "폐기": {
+      "n": 65,
+      "mean_IoU": 0.0916,
+      "Loc_at_0p5": 0.0308,
+      "pointing_game": 0.2308
+    }
+  },
+  "among_correct": {
+    "n": 243,
+    "mean_IoU": 0.0271,
+    "Loc_at_0p5": 0.0123,
+    "pointing_game": 0.0617
+  }
+}

@@ -1,0 +1,26 @@
+# Dataset (AI-Hub, not redistributable) and anything derived from it
+/data/
+AI_hub_cloth/
+*.jpg
+*.jpeg
+*.bmp
+*.webp
+!results/figures/*.jpg
+manifest.*
+*.parquet
+
+# Training outputs and checkpoints
+/runs/
+_split*/
+*.pt
+*.pth
+*.ckpt
+*.zip
+
+# Local clutter / originals kept out of git
+_archive/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

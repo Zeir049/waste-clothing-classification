@@ -1,0 +1,42 @@
+{
+  "variant": "B1",
+  "best": {
+    "method": "layercam",
+    "layers": "layer3+layer4",
+    "thr": 0.3
+  },
+  "overall": {
+    "n": 243,
+    "box_IoU": 0.1998,
+    "mask_IoU": 0.1922,
+    "Loc_at_0p5": 0.0494,
+    "pointing": 0.3786,
+    "mass_in_GT": 0.2095
+  },
+  "per_class": {
+    "재활용": {
+      "n": 178,
+      "box_IoU": 0.1977,
+      "mask_IoU": 0.1842,
+      "Loc_at_0p5": 0.0449,
+      "pointing": 0.3427,
+      "mass_in_GT": 0.1999
+    },
+    "폐기": {
+      "n": 65,
+      "box_IoU": 0.2055,
+      "mask_IoU": 0.2141,
+      "Loc_at_0p5": 0.0615,
+      "pointing": 0.4769,
+      "mass_in_GT": 0.2359
+    }
+  },
+  "among_correct": {
+    "n": 243,
+    "box_IoU": 0.1998,
+    "mask_IoU": 0.1922,
+    "Loc_at_0p5": 0.0494,
+    "pointing": 0.3786,
+    "mass_in_GT": 0.2095
+  }
+}

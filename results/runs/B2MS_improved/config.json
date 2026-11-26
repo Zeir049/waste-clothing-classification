@@ -1,0 +1,29 @@
+{
+  "main_classes": [
+    "재사용",
+    "재활용",
+    "폐기"
+  ],
+  "img_size": 224,
+  "batch_size": 32,
+  "num_workers": 0,
+  "epochs": 15,
+  "lr": 0.0001,
+  "weight_decay": 0.0005,
+  "label_smoothing": 0.05,
+  "use_amp": true,
+  "use_texture_block": true,
+  "texture_mid_ch": 32,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
+  "seed": 42,
+  "use_focal": true,
+  "focal_gamma": 2.0,
+  "dropout_p": 0.3,
+  "use_random_erasing": true,
+  "use_mixup": false,
+  "mixup_alpha": 0.2,
+  "tune_dispose_threshold": true,
+  "best_epoch": 8,
+  "best_val_f1": 0.8485775952871855
+}

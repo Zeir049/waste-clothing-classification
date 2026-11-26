@@ -1,0 +1,7 @@
+{
+  "params_M": 23.516,
+  "trainable_M": 23.516,
+  "gflops": 4.132,
+  "fps_batch1": 186.54,
+  "peak_gpu_mem_MB": 1930.9
+}

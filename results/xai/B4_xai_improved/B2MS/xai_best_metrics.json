@@ -1,0 +1,42 @@
+{
+  "variant": "B2MS",
+  "best": {
+    "method": "layercam",
+    "layers": "layer3+layer4",
+    "thr": 0.3
+  },
+  "overall": {
+    "n": 243,
+    "box_IoU": 0.2248,
+    "mask_IoU": 0.2392,
+    "Loc_at_0p5": 0.0782,
+    "pointing": 0.4609,
+    "mass_in_GT": 0.2508
+  },
+  "per_class": {
+    "재활용": {
+      "n": 178,
+      "box_IoU": 0.224,
+      "mask_IoU": 0.2374,
+      "Loc_at_0p5": 0.0674,
+      "pointing": 0.4326,
+      "mass_in_GT": 0.2487
+    },
+    "폐기": {
+      "n": 65,
+      "box_IoU": 0.227,
+      "mask_IoU": 0.2442,
+      "Loc_at_0p5": 0.1077,
+      "pointing": 0.5385,
+      "mass_in_GT": 0.2565
+    }
+  },
+  "among_correct": {
+    "n": 243,
+    "box_IoU": 0.2248,
+    "mask_IoU": 0.2392,
+    "Loc_at_0p5": 0.0782,
+    "pointing": 0.4609,
+    "mass_in_GT": 0.2508
+  }
+}
